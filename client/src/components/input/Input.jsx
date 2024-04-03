@@ -53,7 +53,7 @@ const Input = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center">
     <div className="w-full flex justify-center">
-        <div className="shadow-lg shadow-slate-400  w-2/6 rounded-xl mt-4 p-2">
+        <div className="shadow-lg shadow-slate-400 w-5/6 lg:w-2/6 md:4/5 xl:w-2/6 rounded-xl mt-4 p-2">
         <input type="text" value={title} className="w-full border-none  p-3 h-10 placeholder:text-slate-700"
          placeholder="Title" onChange={(e)=>setTitle(e.target.value)}/>
          <input type="text" value={notes} className="w-full border-none  p-3" placeholder="Take a note..." onChange={(e)=>setNotes(e.target.value)}/>
